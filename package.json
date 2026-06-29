@@ -1,0 +1,19 @@
+{
+  "name": "banco-api-tests",
+  "version": "1.0.0",
+  "description": "Iniciando um novo projeto: Criar uma nova pasta 'banco-api-tests' pasta vazia",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js --timeout=150000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chain": "^0.4.2",
+    "chai": "^6.2.2",
+    "mocha": "^11.7.6",
+    "supertest": "^7.2.2"
+  }
+}
