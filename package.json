@@ -4,16 +4,17 @@
   "description": "Iniciando um novo projeto: Criar uma nova pasta 'banco-api-tests' pasta vazia",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/**/*.test.js --timeout=150000"
+    "test": "mocha ./test/**/*.test.js --timeout=150000 --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "chain": "^0.4.2",
     "chai": "^6.2.2",
+    "chain": "^0.4.2",
     "mocha": "^11.7.6",
+    "mochawesome": "^7.1.4",
     "supertest": "^7.2.2"
   }
 }
